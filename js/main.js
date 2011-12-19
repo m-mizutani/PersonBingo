@@ -78,13 +78,19 @@ function init () {
     console.log ('called init');
     status = 'init';
 
-
+    
     $.ajax ({
 	type: "GET",
 	url: person_data, 
 	success: function (res) {
-	    person_list = res['person'];
-	    console.log (res);
+                if (typeof res == 'string') {
+                    data = JSON.parse (res);
+                }   
+                else {
+                    data = res;
+                }
+
+	    person_list = data['person'];
 	    $('#status').text('Ready!');
 	    status = 'wait';
 	    waiting ();
