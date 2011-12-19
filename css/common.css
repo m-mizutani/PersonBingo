@@ -1,0 +1,89 @@
+
+body {
+    background: #fff;
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#header {
+    width: 640px;
+    margin: auto;
+}
+
+#header h1 {
+    color: black;
+    font-size: 36pt;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#main {
+    margin: auto;
+    width: 660px;
+}
+
+#slot {
+    float: left;
+    background: #f4f4f4;
+    font-size: 11pt;
+    width: 360px;
+    padding: 10px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin: 10px auto;
+    border: 1px solid #bbb;
+
+    -webkit-box-shadow: #C7C7C7 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px #C7C7C7;        
+}
+
+#slot img {
+    height: 150px;
+}
+
+#controller {
+    margin: 10px;
+}
+
+#history {
+    float: right;
+    background: #f4f4f4;
+    font-size: 11pt;
+    width: 240px;
+    padding: 10px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin: 10px auto;
+    border: 1px solid #bbb;
+
+    -webkit-box-shadow: #C7C7C7 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px #C7C7C7;    
+}
+
+div#person_name {
+    font-size: 26pt;
+}
+
+.strong {
+    Background: #444;
+}
+
+#status {
+    width: 100px;
+    Background: #ccc;
+    padding: 3px;
+}
+
+.disabled_button {
+    color: #eee;
+}
+
+div.person {
+    margin: 5px;
+}
+
+div.person img {
+    height: 50px;
+}
